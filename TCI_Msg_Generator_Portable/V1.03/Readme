@@ -1,0 +1,3 @@
+Added SutControl tab which implements the SUT control messages.
+Corrected a bug in the SetMsgCount Message.
+Corrected a bug in the ConfigureBSM Message.

@@ -1,0 +1,4 @@
+Corrected an error in decoding and encoding BSM.
+When sending StartWsmRx, the RxFlags bits were not set when selected.
+The RxFlag Don't Match PSID checkbox has been named to Match PSID to be consistent with the ASN.1 definition. Setting this Checkbox indicates that you want the PSID to be matched. Clearing it indicates that you don't want PSID matching.
+

@@ -1,0 +1,10 @@
+Compiled with the latest TCI interface ASN.1 version TCI_20170409-2.
+
+Added Set_Initial_State subtab to the 2945 tab.
+
+Changed CheckDeviceAvailability Message to RequestSutAvaiability.
+
+Added requestSutInfo and setTestId messages to the SUT Control tab.
+
+Returned SUT Info is processed and displayed in the text area.
+

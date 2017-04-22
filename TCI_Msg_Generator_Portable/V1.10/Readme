@@ -1,0 +1,6 @@
+This build implements the latest TCI2945/1 changes as of April 22nd, 2017. Basically the addition of startBsmRx and stopBsmRx.
+Fixed the mislabelled SetElevation button.
+Fixed the Elevation data type from Int64 to the correct data type of int.
+Consolidated the BSM RX and TX control messages into one tab to make it easier on the user. For example, after sending the StartBsmTx command, you can send StopBsmTx using the same PSID and radio as the StartBsmTx (the repeatrate value will be ignored). Same approach too the receive.
+
+Thanks to Suresh Perumal of denso-diam for pointing out the Set Elevation bugs.

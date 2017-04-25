@@ -1,0 +1,1617 @@
+-----------------Message Processing Started-----------------
+Time: 1492986064611 ms, 22:21:4:611, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1492986065007 ms, 22:21:5:7, Packet Received from test system.
+Frame Id: D16093Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1492986065508 ms, 22:21:5:508, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16093_WSM_MST_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1492986066815 ms, 22:21:6:815, Packet Received from test system.
+Frame Id: D16093Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 24
+	Transmit Power Level = 0
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = Channel No, TX PWR, Data Rate
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1492986069510 ms, 22:21:9:510, Packet Received from test system.
+Frame Id: D16093Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50 every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64                  hello world
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1492986075210 ms, 22:21:15:210, Packet Received from test system.
+Frame Id: D16093Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045068426 ms, 14:44:28:426, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045070620 ms, 14:44:30:620, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045072886 ms, 14:44:32:886, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 0
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045078723 ms, 14:44:38:723, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045573153 ms, 14:52:53:153, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045575259 ms, 14:52:55:259, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045577827 ms, 14:52:57:827, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 0
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493045583521 ms, 14:53:3:521, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046027299 ms, 15:0:27:299, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046029412 ms, 15:0:29:412, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046032180 ms, 15:0:32:180, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 0
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046037569 ms, 15:0:37:569, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046246013 ms, 15:4:6:13, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046248094 ms, 15:4:8:94, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046250468 ms, 15:4:10:468, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 0
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046256300 ms, 15:4:16:300, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046788947 ms, 15:13:8:947, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046791029 ms, 15:13:11:29, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046793504 ms, 15:13:13:504, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 0
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493046799241 ms, 15:13:19:241, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048546200 ms, 15:42:26:200, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048546601 ms, 15:42:26:601, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048550600 ms, 15:42:30:600, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048556500 ms, 15:42:36:500, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048761657 ms, 15:46:1:657, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048787864 ms, 15:46:27:864, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048820452 ms, 15:47:0:452, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493048822464 ms, 15:47:2:464, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049096847 ms, 15:51:36:847, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049097237 ms, 15:51:37:237, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049101543 ms, 15:51:41:543, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049107159 ms, 15:51:47:159, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049165678 ms, 15:52:45:678, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049177786 ms, 15:52:57:786, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049257057 ms, 15:54:17:57, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049259070 ms, 15:54:19:70, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049458090 ms, 15:57:38:90, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049458485 ms, 15:57:38:485, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049462669 ms, 15:57:42:669, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049468386 ms, 15:57:48:386, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049516790 ms, 15:58:36:790, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049528022 ms, 15:58:48:22, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049619887 ms, 16:0:19:887, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493049622091 ms, 16:0:22:91, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493050158626 ms, 16:9:18:626, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493050174594 ms, 16:9:34:594, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493050184974 ms, 16:9:44:974, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493050195084 ms, 16:9:55:84, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493050197143 ms, 16:9:57:143, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493065469170 ms, 20:24:29:170, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493065470066 ms, 20:24:30:66, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493065471063 ms, 20:24:31:63, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493065475793 ms, 20:24:35:793, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493065481465 ms, 20:24:41:465, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066733267 ms, 20:45:33:267, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066734159 ms, 20:45:34:159, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066735159 ms, 20:45:35:159, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066739896 ms, 20:45:39:896, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066745563 ms, 20:45:45:563, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066879321 ms, 20:47:59:321, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066880220 ms, 20:48:0:220, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066881220 ms, 20:48:1:220, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_02
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066886164 ms, 20:48:6:164, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = AltSlot0
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093payload
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066888178 ms, 20:48:8:178, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 178
+	Radio = Radio0
+	Timeslot = AltSlot1
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093payload
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493066890731 ms, 20:48:10:731, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493067253483 ms, 20:54:13:483, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493067254382 ms, 20:54:14:382, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493067255382 ms, 20:54:15:382, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_MDE_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493067259286 ms, 20:54:19:286, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493067261310 ms, 20:54:21:310, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 21 21 21 00      Hello World!!!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493067263883 ms, 20:54:23:883, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071713841 ms, 22:8:33:841, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071714738 ms, 22:8:34:738, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071715740 ms, 22:8:35:740, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_RXT_MDE_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071722857 ms, 22:8:42:857, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 12
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071724893 ms, 22:8:44:893, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 20 66 72 6F 6D   hello world from
+00000010   20 44 41 4E 4C 41 57 20 21 21 00                   DANLAW !!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071724914 ms, 22:8:44:914, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071724920 ms, 22:8:44:920, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071726985 ms, 22:8:46:985, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071900991 ms, 22:11:40:991, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071901901 ms, 22:11:41:901, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071902890 ms, 22:11:42:890, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_RXT_MDE_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071909876 ms, 22:11:49:876, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 12
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071911887 ms, 22:11:51:887, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 20 66 72 6F 6D   hello world from
+00000010   20 44 41 4E 4C 41 57 20 21 21 00                   DANLAW !!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071911891 ms, 22:11:51:891, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071911893 ms, 22:11:51:893, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493071914325 ms, 22:11:54:325, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072089604 ms, 22:14:49:604, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072090503 ms, 22:14:50:503, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072091503 ms, 22:14:51:503, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072098761 ms, 22:14:58:761, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 12
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072100769 ms, 22:15:0:769, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 20 66 72 6F 6D   hello world from
+00000010   20 44 41 4E 4C 41 57 20 21 21 00                   DANLAW !!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072100774 ms, 22:15:0:774, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072100777 ms, 22:15:0:777, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072102700 ms, 22:15:2:700, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072208665 ms, 22:16:48:665, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072209571 ms, 22:16:49:571, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072210565 ms, 22:16:50:565, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072218692 ms, 22:16:58:692, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 12
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072220699 ms, 22:17:0:699, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 20 66 72 6F 6D   hello world from
+00000010   20 44 41 4E 4C 41 57 20 21 21 00                   DANLAW !!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072220733 ms, 22:17:0:733, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072220736 ms, 22:17:0:736, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072221936 ms, 22:17:1:936, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072635717 ms, 22:23:55:717, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072636614 ms, 22:23:56:614, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072637614 ms, 22:23:57:614, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072644984 ms, 22:24:4:984, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 12
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072647026 ms, 22:24:7:26, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 20 66 72 6F 6D   hello world from
+00000010   20 44 41 4E 4C 41 57 20 21 21 00                   DANLAW !!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072647111 ms, 22:24:7:111, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072647118 ms, 22:24:7:118, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493072648850 ms, 22:24:8:850, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073289739 ms, 22:34:49:739, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073290644 ms, 22:34:50:644, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073291639 ms, 22:34:51:639, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_03
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073298756 ms, 22:34:58:756, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 174
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073300769 ms, 22:35:0:769, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 21 21 21         hello world!!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073303937 ms, 22:35:3:937, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073306938 ms, 22:35:6:938, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073307438 ms, 22:35:7:438, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 20 21 21 21      Hello World !!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073312041 ms, 22:35:12:41, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073316943 ms, 22:35:16:943, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 174
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073318951 ms, 22:35:18:951, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 21 21 21         hello world!!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493073322144 ms, 22:35:22:144, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130776548 ms, 14:32:56:548, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130777453 ms, 14:32:57:453, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130778452 ms, 14:32:58:452, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_RXT_MDE_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130782945 ms, 14:33:2:945, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093frame
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130788858 ms, 14:33:8:858, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130819500 ms, 14:33:39:500, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130820405 ms, 14:33:40:405, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130821403 ms, 14:33:41:403, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_RXT_MDE_BV_02
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130825975 ms, 14:33:45:975, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 176
+	Radio = Radio0
+	Timeslot = AltSlot0
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093payload
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130827989 ms, 14:33:47:989, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmRx Message Received
+	Channel = 178
+	Radio = Radio0
+	Timeslot = AltSlot1
+	PSID = 
+	Event Handling
+		RxFlag = Don't Match Psid = false, Include PDU = true, Include PDU Params = true
+		Event Flag: Unknown
+		PDU Frame Type = D16093payload
+		Security Flag = BypassSecurityVerification 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493130830860 ms, 14:33:50:860, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmRx Message Received
+	Radio = Radio0
+	PSID = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131849514 ms, 14:50:49:514, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131850413 ms, 14:50:50:413, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131851413 ms, 14:50:51:413, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_RXT_MDE_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131858414 ms, 14:50:58:414, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131861542 ms, 14:51:1:542, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131875853 ms, 14:51:15:853, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131876752 ms, 14:51:16:752, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131877752 ms, 14:51:17:752, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_MDE_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131881465 ms, 14:51:21:465, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131883489 ms, 14:51:23:489, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 21 21 21 00      Hello World!!!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131886252 ms, 14:51:26:252, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131969959 ms, 14:52:49:959, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131970864 ms, 14:52:50:864, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131971862 ms, 14:52:51:862, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_MDE_BV_02
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131978585 ms, 14:52:58:585, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot0
+	Mode of Operation = Alternating
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = Channel No, TX PWR, Data Rate
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131980598 ms, 14:53:0:598, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 178
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 67
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = Channel No, TX PWR, Data Rate
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131982610 ms, 14:53:2:610, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 21 21 21 4D 55   Hello World!!!MU
+00000010   4C 5F 43 48 21 21                                 L_CH!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131982610 ms, 14:53:2:610, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 67
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 21 21 21 4D 55   Hello World!!!MU
+00000010   4C 5F 43 48 21 21                                 L_CH!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131986307 ms, 14:53:6:307, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493131987165 ms, 14:53:7:165, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 67
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132058648 ms, 14:54:18:648, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132059552 ms, 14:54:19:552, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132060551 ms, 14:54:20:551, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_01
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132064279 ms, 14:54:24:279, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132066307 ms, 14:54:26:307, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 88
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = Channel No, TX PWR, Data Rate
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132068319 ms, 14:54:28:319, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 88
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 20 57 53 4D      Hello World WSM
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132071580 ms, 14:54:31:580, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 88
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132100457 ms, 14:55:0:457, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132101346 ms, 14:55:1:346, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132102344 ms, 14:55:2:344, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_02
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132108241 ms, 14:55:8:241, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 176
+	Radio = Radio0
+	Timeslot = AltSlot1
+	Mode of Operation = Alternating
+	DataRate = 12
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132110253 ms, 14:55:10:253, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 20 66 72 6F 6D   hello world from
+00000010   20 44 41 4E 4C 41 57 20 21 21 00                   DANLAW !!.
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132110253 ms, 14:55:10:253, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132110253 ms, 14:55:10:253, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132113451 ms, 14:55:13:451, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132163062 ms, 14:56:3:62, Packet Received from test system.
+Frame Id: SutCtrlChosen
+RequestSutAvailability Message Received
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132163966 ms, 14:56:3:966, Packet Received from test system.
+Frame Id: D16094Chosen
+Set Initial State Message Received, parameter = true
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132164965 ms, 14:56:4:965, Packet Received from test system.
+Frame Id: SutCtrlChosen
+Starting Test Case: TP_16094_TXT_PER_BV_03
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132172063 ms, 14:56:12:63, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 174
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132174075 ms, 14:56:14:75, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 21 21 21         hello world!!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132177259 ms, 14:56:17:259, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132180254 ms, 14:56:20:254, Packet Received from test system.
+Frame Id: D16094Chosen
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132180769 ms, 14:56:20:769, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   48 65 6C 6C 6F 20 57 6F 72 6C 64 20 21 21 21      Hello World !!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132185356 ms, 14:56:25:356, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132190254 ms, 14:56:30:254, Packet Received from test system.
+Frame Id: D16094Chosen
+SetWsmTxInfo Message Received
+	Channel No = 174
+	Radio = Radio0
+	Timeslot = Continuous
+	Mode of Operation = Continuous
+	DataRate = 18
+	Transmit Power Level = 20
+	PSID = 66
+	User Priority = 7
+	Destination MAC Address = ff:ff:ff:ff:ff:ff
+	InfoElements Included = 
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132192266 ms, 14:56:32:266, Packet Received from test system.
+Frame Id: D16094Chosen
+StartWsmTx Message Received
+	PSID = 66
+	Radio = Radio0
+	Repeat Rate = 50every 5 seconds
+	Payload = 
+Offset(h)  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+00000000   68 65 6C 6C 6F 20 77 6F 72 6C 64 21 21 21         hello world!!!
+------------------------------------------------------
+
+-----------------Message Processing Started-----------------
+Time: 1493132195464 ms, 14:56:35:464, Packet Received from test system.
+Frame Id: D16094Chosen
+StopWsmTx Message Received
+	Radio = Radio0
+	PSID = 66
+------------------------------------------------------
+

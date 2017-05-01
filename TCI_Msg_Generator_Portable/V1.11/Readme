@@ -1,8 +1,8 @@
 In the 802.11, 1609.3, 1609.4 and 29451 tabs, the eventFlag ComboBox has been replaced by a ListBox. ComboBox allows you only one selection. Since EvenFlags is defined as BitString with a length of 9 bits, theoritically speaking you could set all 9 bits. ComboBox won't allow you to do that, but ListBox will. Thanks to Mangesh Sukthanker, Marben Products, for bringing this to my attention.
 
 
-For your first selection, just click on the item you want selected. For subsequent selections and deselections use the Ctrl button while clicking on the item you want to select.
+For your first selection, just click on the item you want selected. For subsequent selections and deselections, use the Ctrl key while clicking on the item you want to select.
 
 For new users of this application, after installation, go to the directory  C:\Users\Public\Danlaw and change the IP address in the file SutIPv4Address.txt to the IP address of your device.
 
-Also, in the same directory, you will find a several XML files that you can use with 1609.3 Wave Services (When you see Load from a File).
+Also, in the same directory, you will find several XML files that you can use with 1609.3 Wave Services (When you see Load from a File).

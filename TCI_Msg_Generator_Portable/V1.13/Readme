@@ -1,0 +1,3 @@
+1609.3->Wave Services->AddUserService was missing the event handling structure. It is included now and should be working.
+
+Thanks to Shuresh Perumal @ Denso-Diam for reporting the bug.

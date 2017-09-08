@@ -1,0 +1,20 @@
+This version of the TCI software corrects a misunderstanding of the intended usage of ServiceInfo used in the following messages:
+
+StartWsaTxPerdiodic 
+AddWsaProviderService 
+ChangeWsaProviderService
+DelWsaProviderService
+
+As seen below, the ServiceInfo structure (in the TCIwsm.asn file) contains the ChannelNumber not the ChannelIndex. The intention was that when the SUT receives one of the above-mentioned 4 messages, then it would do the translation beween the ChannelNumber and the ChannelIndex and include the proper Channel Index in the WRA packet or in the addition, deletion or change the ServiceInfo when required.
+
+ServiceInfo ::= SEQUENCE {
+    serviceID       Psid, 
+    channelNumber   ChannelNumber80211,
+    chOptions       ChannelOptions
+    }
+    
+I have interpreted this as the ChannelIndex and as such created xml files that contained the wrong information which is ChannelIndex instead of ChannelNumber.
+    
+This version c orrects this misunderstanding on my part and contains xml files that contain ChannelNumber not ChannelIndex, there are no code changes per se, as the TCI Message Generator reads a text representing a number between 1 and 255 and converts that number to a byte without checking the value.
+
+

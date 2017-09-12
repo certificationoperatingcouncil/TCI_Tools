@@ -1,0 +1,7 @@
+THis is a special build for anybody who wants to decode TCI Messages in UPER. Dmitri informed me that some people are interested in this, so here it is.I have not tested it thoroughly. I would be provide minor bug fixes as the plugfest is upon us and everybody will be busy.
+
+So, all the messages sent are UPER-encoded instead of OER-encoded.
+
+Regards,
+
+Mostafa

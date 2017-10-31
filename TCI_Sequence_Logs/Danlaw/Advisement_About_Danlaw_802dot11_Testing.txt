@@ -1,3 +1,0 @@
-Please be advised that when we are doing 802.11 tests we don't send WSM packets. So, please don't expect to see BSM, WSA, WSM header ...etc.
-
-802.11 doesn't know and doesn't care what the payload is, to it, it is an array of meaningless bytes.

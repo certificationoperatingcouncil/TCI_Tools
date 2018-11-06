@@ -3,7 +3,7 @@
 # Certification Operating Council 
 ----------
 
-## TCI_Msg_Generator_Portable
+## TCI_Msg_Generator
 
 TCI Message Generator simulates messages sent from a Test System to IUT (implementation under test). The GUI controls allow to select TCI message domain and fill in parameter values. This software is developed and supported by Danlaw
 

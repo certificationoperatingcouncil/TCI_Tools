@@ -1,0 +1,3 @@
+The 1609.3->Wave Services->Start WSA TX Periodic tab was messed up. The Load from a file button, didn't load the WSA periodic information from the XML file and the Start WSA TX Periodic button disappeared.
+
+All this was corrected in this version.
